@@ -1,3 +1,64 @@
 @import "../node_modules/normalize.css/normalize.css";
 @import "../node_modules/boilerplate-styles/styles/boilerplate.scss";
+@import "../node_modules/flexboxgrid/dist/flexboxgrid.min.css";
 
+
+
+#cite-container {
+    margin-bottom: 2em;
+}
+
+cite {
+    display: block;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container img {
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.container {
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+
+    a {
+        color: $light-black;
+
+        &:hover {
+            color: $orange;
+        }
+    }
+}
+
+
+#profiles {
+    position: absolute;
+    top: 0px;
+    right: 10%;
+    transform:translateX(-50%);
+    display: flex;
+
+    a {
+        color: $greyish-white;
+        padding: 2px 5px;
+        background: $light-black;
+        margin: 0;
+        border: 0;
+
+        &:hover {
+            background: $orange;
+            text-decoration: none;
+        }
+    }
+
+    #blackmesa-logo {
+        margin-left: 2px;
+        height: 12px;
+        vertical-align: baseline;
+    }
+}

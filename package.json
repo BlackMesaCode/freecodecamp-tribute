@@ -60,6 +60,10 @@
   },
   "dependencies": {
     "boilerplate-styles": "^1.0.3",
-    "normalize.css": "^5.0.0"
+    "flexboxgrid": "^6.3.1",
+    "font-awesome": "^4.7.0",
+    "install": "^0.8.7",
+    "normalize.css": "^5.0.0",
+    "npm": "^4.3.0"
   }
 }
